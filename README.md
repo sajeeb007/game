@@ -1,4 +1,4 @@
-# game
+# Dice Game
 This is a Dice game that I created in process of learning Javascript. It uses DOM and random number generator to generate random dice and then
 declares a winner that helps disputing stuffs between two people.
 
