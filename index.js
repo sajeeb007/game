@@ -26,13 +26,13 @@ for(var i = 1; i <= 6; i++){
 }
 
 if(player1 > player2){
-  document.querySelector(".winner").innerText = name1 + " Wins!";
+  document.querySelector("h1").innerText = name1 + " Wins!";
 }
 else if(player2 > player1){
-  document.querySelector(".winner").innerText =  name2 + " Wins!";
+  document.querySelector("h1").innerText =  name2 + " Wins!";
 }
 else{
-  document.querySelector(".winner").innerText = "Draw!";
+  document.querySelector("h1").innerText = "Draw!";
 }
 console.log(player1);
 console.log(player2);
