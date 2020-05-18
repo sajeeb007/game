@@ -1,8 +1,8 @@
-var name1 = prompt("Enter Player 1 Name: ");
-var name2 = prompt("Enter Player 2 Name: ");
+// var name1 = prompt("Enter Player 1 Name: ");
+// var name2 = prompt("Enter Player 2 Name: ");
 
-document.querySelector(".p1").innerText = name1;
-document.querySelector(".p2").innerText = name2;
+// document.querySelector(".p1").innerText = name1;
+// document.querySelector(".p2").innerText = name2;
 
 
 
@@ -26,10 +26,10 @@ for(var i = 1; i <= 6; i++){
 }
 
 if(player1 > player2){
-  document.querySelector("h1").innerText = name1 + " Wins!";
+  document.querySelector("h1").innerText =  "Player1 Wins!";
 }
 else if(player2 > player1){
-  document.querySelector("h1").innerText =  name2 + " Wins!";
+  document.querySelector("h1").innerText =   "Player2 Wins!";
 }
 else{
   document.querySelector("h1").innerText = "Draw!";
