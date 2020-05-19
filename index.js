@@ -11,7 +11,6 @@ var player1;
 var player2;
 player1 = Math.floor(Math.random()*6 + 1);
 player2 = Math.floor(Math.random()*6 + 1);
-
 for(var i = 1; i <= 6; i++){
   var imgSrc = "dice" + i + ".png"
   if(player1 === i){
